@@ -1,0 +1,69 @@
+{
+    "catalogs": [
+        {
+            "name": "catalog1",
+            "files": [
+                {
+                    "name": "hello.txt"
+                }
+            ],
+            "subcatalogs": [
+                {
+                    "name": "subcatalog1",
+                    "files": [
+                        {
+                            "name": "hello.py"
+                        }
+                    ],
+                    "subcatalogs": []
+                }
+            ]
+        },
+        {
+            "name": "catalog2",
+            "files": [
+                {
+                    "name": "README.md"
+                },
+                {
+                    "name": ".gitignore"
+                }
+            ],
+            "subcatalogs": []
+        },
+        {
+            "name": "catalog3",
+            "files": [],
+            "subcatalogs": [
+                {
+                    "name": "subcatalog2",
+                    "files": [],
+                    "subcatalogs": [
+                        {
+                            "name": "subcatalog3",
+                            "files": [
+                                {
+                                    "name": "helloworld.java"
+                                }
+                            ],
+                            "subcatalogs": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "<catalog name>",
+            "files": [],
+            "subcatalogs": []
+        }
+    ],
+    "files": [
+        {
+            "name": "configfile.json"
+        },
+        {
+            "name": "<file name>"
+        }
+    ]
+}
